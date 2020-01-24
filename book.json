@@ -1,0 +1,357 @@
+{
+    "author": "Sara Mota",
+    "authorInstagram": "@saramota",
+    "Professor": "Marcos Junior",
+    "professorInstagram": "@blackhand",
+    "webDevelopment": "Diego Felipe Florença",
+    "webDevInstagram": "@diegoflorenca",
+    "chapters": [
+        {
+            "chapter": "A",
+            "text": "Você está parado em uma sala escura e silenciosa onde as únicas coisas que consegue ver são três portas. Você não se lembra como chegou ali, está com muito medo e a visão que tem das portas te desperta uma estranha ansiedade.",
+            "alternatives": [
+                "Sentar em posição fetal e gritar.",
+                "Analisar as portas.",
+                "Simplesmente quiser ficar onde está."
+            ],
+            "nextChapter": [
+                "V",
+                "P",
+                "F"
+            ],
+            "icon": [
+                "done",
+                "query_builder",
+                "compare_arrows"
+            ]
+        },
+        {
+            "chapter": "B",
+            "text": "A situação chama sua atenção e você não consegue resistir à sugestão da placa. Com todo cuidado, pega uma das flores da moita e a aproxima do rosto. O cheiro é doce, forte e marcante, mas logo deixa de ser agradável. Aos poucos você começa a sentir uma queimação por toda via nasal, além de uma tontura espontânea. Você cambaleia e…",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "C",
+            "text": "Sem pensar muito, você só vira para a esquerda e começa a caminhar em direção a escuridão. Muito tempo passa e a caminhada parece não ter fim. Você está exausto, com sede e muita fome, praticamente sendo consumido pelas suas necessidades. Mas continua a se arrastar pelo corredor até seu corpo ceder e começar a agonizar no chão. Você sabe que é o fim, fecha os olhos e...",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "D",
+            "text": "Nem mesmo o medo muda a sua decisão, você sabe que isso não tem como ser real, começando por esse lance de não conseguir se lembrar de nada. Você abre a porta e automaticamente é sugado para o que parece ser um lago ou o mar. Submerso, a porta desaparece atrás do seu corpo e você se vê obrigado a nadar. Você percebe que a movimentação da água era a responsável por toda aquela tremedeira na porta e isso desperta em você uma sensação de alívio, porque pelo menos algo ali tem uma justificativa. Enquanto você nada, uma alga se enrola na sua perna e te prende. Você chacoalha sua perna, desesperadamente, na tentativa de se soltar, mas nada. A luta com a alga perpetua, você está ficando sem ar e...",
+            "alternatives": [
+                "Desistir de tentar escapar dessa alga.",
+                "Lutar um pouco mais."
+            ],
+            "nextChapter": [
+                "N",
+                "J"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "E",
+            "text": "Sua primeira reação é correr desesperadamente no sentido contrário ao dos animais. Usando todos os seus esforços, você se enfia entre as árvores tentando se esconder. Você pula as raízes e arbustos que vai encontrando, mas em um desses troncos, você acaba tropeçando, batendo a cabeça e...",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "F",
+            "text": "Tudo isso é desesperador demais. Você não sabe ao certo como agir, então decide apenas ficar ali, esperando algo acontecer. A sala permanece totalmente igual. Passam-se alguns minutos até que uma fenda surja no seu campo de visão. Ela provavelmente existe desde a parede oposta àquela que estão as portas, entretanto, está escuro demais para que você possa confirmar. Aos poucos, a rachadura vai crescendo na sua direção e ficando mais larga. Você está ainda mais assustado e sente que precisa agir imediatamente.",
+            "alternatives": [
+                "Correr em direção as portas.",
+                "Esperar algo mais drástico acontecer."
+            ],
+            "nextChapter": [
+                "U",
+                "H"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "G",
+            "text": "Seguindo sua intuição, você começa a caminhar em direção a porta mais simples. Na sua cabeça, o único pensamento que consegue ter é o de que essa opção é normal demais para ser perigosa. A porta abre normalmente e surge a sua frente uma parede. Você logo percebe que trata-se de um corredor, mas não há luz suficiente para enxergar o final de nenhum dos seus caminhos.",
+            "alternatives": [
+                "Caminhar para a direita.",
+                "Ir para a esquerda."
+            ],
+            "nextChapter": [
+                "T",
+                "C"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "H",
+            "text": "Mesmo querendo agir, por algum motivo você não sai do lugar. A fenda, que a essa altura já estava entre seus pés, abre bruscamente, te engole e...",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "I",
+            "text": "Você para e volta a encarar as portas. Uma estranhamente nostálgica e a outra completamente genérica. Qual será a sua melhor opção? Que caminho você deve seguir?",
+            "alternatives": [
+                "Ir pela porta verde.",
+                "A porta preta te parecer ser a melhor opção."
+            ],
+            "nextChapter": [
+                "Z",
+                "G"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "J",
+            "text": "…numa balançada mais forte, sua perna consegue soltar a alga do solo, te deixando livre. Entretanto, quando você finalmente tenta alcançar a superfície, percebe que está fundo demais para chegar até lá. Você tenta continuar a nadar e…",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "L",
+            "text": "Movido pela adrenalina, você segue os macacos. Eles estão fugindo para algum lugar seguro, é o que você pensa. A melhor opção é correr atrás deles, torcendo pra que você também consiga alcançar a segurança. Você corre muito rápido, desviando por entre as árvores, mas num ato de deslize, você escorrega numa casca de banana deixada pelos macacos. Ao cair, você sai rolando, até que...",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "M",
+            "text": "O medo te consome e um momento de lucidez faz você cair na real. Essa é obviamente a porta mais perigosa, vale a pena se arriscar tanto? Isso tudo pode ser um sonho, mas você não planeja colocar à prova. Não assim, de imediato.",
+            "alternatives": [
+                "Escolher outra porta.",
+                "Esperar até que algo aconteça."
+            ],
+            "nextChapter": [
+                "I",
+                "F"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "N",
+            "text": "…tudo fica escuro. Parece ridículo, mas você morreu.",
+            "alternatives": [
+                "Seguir com a história.",
+                "Aceitar a derrota, fique onde está, aliás, você está morto."
+            ],
+            "nextChapter": [
+                "Q",
+                "A"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "O",
+            "text": "Instintivamente você se abaixa, pega pedras no chão e as atira em direção aos animais. Eles se assustam e fogem pelo topo das árvores, fazendo barulho por onde passam.",
+            "alternatives": [
+                "Aproveitando que os macacos fugiram, volte correndo para a sala porta verde.",
+                "Seguir os macacos pra ver se descobre mais alguma coisa."
+            ],
+            "nextChapter": [
+                "S",
+                "L"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "P",
+            "text": "Seus olhos vagam assustados. A primeira porta é azul e você percebe que tem água escapando por debaixo da madeira, a porta treme como se algo ali atrás implorasse pra sair. A segunda é verde e há pequenos galhos com folhas amassadas escapando por ela, isso te desperta uma estranha nostalgia, como se você reconhecesse aquele ambiente, mesmo não sabendo como. A terceira porta é preta, simples e, estranhamente, te atrai.",
+            "alternatives": [
+                "Seguir pela porta azul.",
+                "Ir pela verde.",
+                "A porta preta te parece ser a melhor opção.",
+                "Tomar uma decisão é difícil demais pra você, você pode sentar em posição fetal e gritar."
+            ],
+            "nextChapter": [
+                "R",
+                "Z",
+                "G",
+                "V"
+            ],
+            "icon": [
+                "done",
+                "query_builder",
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "Q",
+            "text": "Nesse momento, você não é nada além dessa consciência, mas aos poucos começa a retomar a vida. Seus olhos se abrem, o ar invade seus pulmões e tudo reinicia.",
+            "alternatives": [
+                "O que está acontecendo?"
+            ],
+            "nextChapter": [
+                "A"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "R",
+            "text": "Você está confuso, não faz a menor ideia do que está acontecendo. \"Isso só pode ser um sonho\" é o que você pensa. Então decide seguir pela porta mais improvável. Passo a passo, você caminha lentamente em direção à porta azul. A medida que se aproxima, você começa a escutar ela tremendo e percebe que a água que sai por debaixo dela diminui gradativamente.",
+            "alternatives": [
+                "Você já não quer mais ir por essa porta e sim desistir dela.",
+                "Você é corajoso o suficiente para enfrentá-la."
+            ],
+            "nextChapter": [
+                "M",
+                "D"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "S",
+            "text": "Você, aproveitando o fato dos macacos terem fugido, volta correndo por onde veio e entra na sala novamente. Agora você tem duas outras opções. Duas outras portas para tentar.",
+            "alternatives": [
+                "Ir pela porta azul.",
+                "A porta preta te parecer ser a melhor opção."
+            ],
+            "nextChapter": [
+                "R",
+                "G"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "T",
+            "text": "Instintivamente, você vira a direita e caminha pelo corredor escuro, até que algo te para do nada, você pisca e tudo reinicia.",
+            "alternatives": [
+                "O que está acontecendo?"
+            ],
+            "nextChapter": [
+                "A"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "U",
+            "text": "As portas parecem ser a única solução, então você vai correndo em direção à elas. Entretanto, ao se aproximar você percebe que as rachaduras estão chegando até aquela parede. Ao tentar abrir a porta do meio, a sala desmorona em cima de você e…",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "V",
+            "text": "Você está tão desesperado que decide sentar em posição fetal ali mesmo. Uma vontade incontrolável de gritar te possui. Você se prepara para explodir e exprimir toda angústia que está te consumindo. Puxa ar suficiente para todo grito existir, abre a boca e quando sua voz está preste a fluir, uma mosca surge do vazio e entra por entre seus dentes. Você se debate loucamente, mas ela avança cada vez mais fundo em sua garganta. A mosca está te engasgando, você está ficando sem ar e...",
+            "alternatives": [
+                "Siga em frente."
+            ],
+            "nextChapter": [
+                "N"
+            ],
+            "icon": [
+                "done"
+            ]
+        },
+        {
+            "chapter": "X",
+            "text": "A placa chama a sua atenção, mas você está desesperado demais para parar. Continua andando pela trilha, até que começa a ouvir uma movimentação estranha no topo das árvores. Você continua andando até que os animais que causavam a movimentação sob sua cabeça surgem na sua frente. Trata-se de macacos super agressivos, que ameaçam vir para cima de você.",
+            "alternatives": [
+                "Tentar se defender jogando pedras nos macacos.",
+                "Correr desses bichos."
+            ],
+            "nextChapter": [
+                "O",
+                "E"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        },
+        {
+            "chapter": "Z",
+            "text": "Se vendo obrigado a escolher uma das portas, você opta por aquela que aparenta ser a mais amigável. Ao abrir a porta verde, você depara-se com uma enorme floresta cortada por uma fina trilha de terra e começa a caminhar por ela em busca de alguma pista de onde está. Seus olhos se surpreendem ao ver uma placa com a frase: \"Você só está aqui para uma curta visita. Não se preocupe, não se apresse. E pare para cheirar as flores no caminho\" ao lado de um arbusto com flores amarelas.",
+            "alternatives": [
+                "Seguir o conselho do Universo e cheirar as flores.",
+                "Continuar caminhando."
+            ],
+            "nextChapter": [
+                "B",
+                "X"
+            ],
+            "icon": [
+                "done",
+                "query_builder"
+            ]
+        }
+    ]
+}

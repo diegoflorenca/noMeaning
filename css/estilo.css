@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Calistoga&display=swap');
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.warn{
+	color:#f00;
+}
+
+body{
+	font-family: 'Calistoga', cursive;
+	background: linear-gradient(to top, rgb(20, 20, 20), #000);
+	color:#eee;
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+header{
+	position:fixed;
+	top:0;
+	width:100%;
+	background: #000;
+	text-align: center;
+	padding:20px 0;
+	display:flex;
+	justify-content: center;
+	z-index:2;
+}
+header .logo:nth-child(1){
+	margin-right:52px;
+	text-align: right;
+}
+header .logo:nth-child(2){
+	text-align: left;
+}
+.start{
+	background:#000;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height: 100vh;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index: 2;
+}
+.start button{
+	background:linear-gradient(to bottom, red, rgb(131, 1, 1));
+	border:none;
+	padding:8px;
+	border-radius: 5px;
+	font-family: 'Calistoga', cursive;
+	margin-top:20px;
+	cursor: pointer;
+}
+.start button:hover{
+	background:linear-gradient(to top, red, rgb(131, 1, 1));
+}
+.main{
+	width:100%;
+	max-width: 800px;
+	font-size:2em;
+	margin: 82px auto 0 auto;
+	overflow-y: auto;
+}
+
+.main p{
+	text-align:justify;
+}
+::-webkit-scrollbar { 
+	width: 30px; 
+} 
+::-webkit-scrollbar-thumb { 
+	border: 8px solid rgba(0, 0, 0, 0); 
+	background-clip: padding-box; 
+	border-radius: 20px; 
+	background-color: rgba(255, 255, 255, 0.1); 
+}
+
+.choose{
+	width: 100%;
+	text-align: center;
+	cursor: pointer;
+}
+.choose h3{
+	font-size: 0.7em;
+	margin-top:-20px;
+	margin-bottom:30px;
+}
+
+.alternatives{
+	width:100%;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.9);
+	position:absolute;
+	top:0;
+	left:0;
+	display:none;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.alternatives .alternative{
+	width:100%;
+	height:100vh;
+	padding:30px;
+}
+
+.alternatives .alternative:hover{
+	background:rgba(255, 0, 0, 0.3)
+}
+
+.alternatives a{
+	width:100%;
+	height:calc(100vh - 40px);
+	text-decoration: none;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.alternatives i{
+	text-align: center;
+}
+.alternatives p{
+	font-size:2em;
+	text-align:justify;
+	color:#fff;
+	display:block;
+	margin:0 auto;
+}

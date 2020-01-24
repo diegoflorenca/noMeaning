@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <section class="main">
+        <p></p>
+        <div class="choose">
+            <i class="material-icons md-light">
+                <==>
+            </i>
+            <h3>escolha seu destino</h3>
+        </div>
+    </section>
+    <div class="alternatives">
+
+        <!-- <div class="alternative left">
+            <a href="#">
+                <i class="material-icons md-light">query_builder</i>
+                <p>Se você deseja sentar em posição fetal e gritar, vá para o capítulo V.</p>
+            </a>
+        </div>
+        <div class="alternative middle">
+            <a href="#">
+                <i class="material-icons md-light">done</i>
+                <p>Se preferir analisar as portas, vá para o P.</p>
+            </a>
+        </div>
+        <div class="alternative right">
+            <a href="#">
+                <i class="material-icons md-light">done</i>
+                <p>Se simplesmente quiser ficar onde está, leia o parágrafo F.</p>
+            </a>
+        </div> -->
+    </div>
+
+    <script>
+
+        function loadChapter(chapter) {
+
+            let selectedChapter
+
+            let currentChapter = chapter
+
+            fetch('outroTeste.json').then(function (response) {
+                return response.json();
+            }).then(function (book) {
+
+                // console.log(book);
+                // console.log(book.Author);
+                // console.log(book.chapters);
+                // console.log(book.chapters.length);
+                // console.log(book.chapters[0]);
+                // console.log("->" + book.chapters[0].chapter);
+                // console.log(book.chapters[0].alternatives);
+                // console.log(book.chapters[0].alternatives.length);
+                // console.log(book.chapters[0].alternatives[0]);
+                // console.log(book.chapters[0].nextChapter[0]);
+
+
+                for (let i = 0; i < book.chapters.length; i++) {
+                    const element = book.chapters[i]
+
+                    if (element.chapter === currentChapter) {
+                        selectedChapter = element
+                    }
+
+                }
+
+                let textBox = document.querySelector('.main p')
+                textBox.textContent = ''
+                let text = document.createTextNode(selectedChapter.text)
+                textBox.appendChild(text)
+
+                let alternatives = document.querySelector('.alternatives')
+
+                let checkAlternative = document.querySelectorAll('.alternative')
+                if (checkAlternative) {
+                    for (let i = 0; i < checkAlternative.length; i++) {
+                        alternatives.removeChild(checkAlternative[i])
+                    }
+                }
+
+
+                for (let i = 0; i < selectedChapter.alternatives.length; i++) {
+                    const element = selectedChapter.alternatives[i];
+
+                    let alternative = document.createElement('div')
+                    alternative.setAttribute('class', 'alternative')
+
+                    let linkElement = document.createElement('a')
+                    linkElement.setAttribute('href', '#')
+                    let loadChapter = `loadChapter("${selectedChapter.nextChapter[i]}")`
+                    linkElement.setAttribute('onclick', loadChapter)
+
+                    let iconElement = document.createElement('i')
+                    iconElement.setAttribute('class', 'material-icons md-light')
+                    let iconText = document.createTextNode(selectedChapter.icon[i])
+                    iconElement.appendChild(iconText)
+
+                    let paragraph = document.createElement('p')
+                    let alterText = document.createTextNode(selectedChapter.alternatives[i])
+                    paragraph.appendChild(alterText)
+
+                    linkElement.appendChild(iconElement)
+                    linkElement.appendChild(paragraph)
+                    alternative.appendChild(linkElement)
+                    alternatives.appendChild(alternative)
+
+                }
+
+                // let alternative = document.createElement('div')
+                // alternative.setAttribute('class', 'alternative')
+
+                // let linkElement = document.createElement('a')
+                // linkElement.setAttribute('href', '#')
+
+                // let iconElement = document.createElement('i')
+                // iconElement.setAttribute('class', 'material-icons md-light')
+                // iconText = document.createTextNode(selectedChapter.icon)
+                // iconElement.appendChild(iconText)
+
+                // let paragraph = document.createElement('p')
+                // alterText = document.createTextNode(selectedChapter.alternatives[0])
+                // paragraph.appendChild(alterText)
+
+                // linkElement.appendChild(iconElement)
+                // linkElement.appendChild(paragraph)
+                // alternative.appendChild(linkElement)
+                // alternatives.appendChild(alternative)
+
+
+            }).catch(function (error) {
+                console.error('Something wrong with the JSON file.')
+                console.error(error)
+            })
+
+
+        }
+
+
+
+
+        loadChapter("A")
+    </script>
+</body>
+
+</html>
